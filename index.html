@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="compo">
+        <div>
+            <p class="accolade">import <span class="parentese">{</span> <span class="attribut"> Component </span> <span class="parentese">}</span> from <span  class="docname"> '@angular/core'</span></p>
+            <p class="accolade">import <span class="parentese">{</span> <span class="attribut"> NUMBER, EMAIL, LINKEDIN </span> <span class="parentese">}</span > from<span  class="docname"> '@Mustafa/CV'</span></p>
+        </div>
+
+        <span class="commentaire">/*</span> <br>
+        <span class="commentaire margin"> *  This site is not up to date </span> <br>
+        <span class="commentaire margin"> *  It is currently under development</span> <br>
+        <span class="commentaire">*/</span>
+      <p class="component">
+        <span class="whitecolor">@</span>Component<span class="parentese"
+          >(</span
+        ><span class="accolade">{</span>
+      </p>
+      <p class="attribut margin">
+        selector:<span class="docname"> 'app-portfolio-in-process',</span>
+      </p>
+      <p class="attribut margin">
+        research:<span class="bracket"> true,</span>
+      </p>
+      <p class="attribut margin">
+        templateUrl:<span class="docname">
+          './portfolio-in-process.component.html'</span
+        >,
+      </p>
+      <p class="attribut margin">
+        styleUrls: <span class="bracket">[</span
+        ><span class="docname"> './portfolio-in-process.component.scss'</span>
+        <span class="bracket">]</span>
+      </p>
+      <p><span class="accolade">}</span><span class="parentese">)</span></p>
+    </div>
+    <div class="compo">
+      <p>
+        <span class="accolade">export</span><span class="bracket"> class</span
+        ><span class="funcColo"> PortfolioInProcess</span
+        ><span class="parentese"> {</span>
+      </p>
+      <div class="margin">
+        <p class="funcColo">resume<span class="accolade">() {</span></p>
+            <p class="margin">
+                <span class="commentaire ">/*</span> <br>
+                <span class="commentaire margin"> *  Hellooo, my name is <strong>Mustafa DEMIR.</strong></span> <br>
+                <span class="commentaire margin"> *  I'm<strong> Full-stack</strong> Developer.</span> <br>
+                <span class="commentaire margin"> *  I'm actively looking for an innovative company where I can not only put into practice the skills</span> <br>
+                <span class="commentaire margin"> *  I've acquired during my training in IT development,</span> <br>
+                <span class="commentaire margin"> *  but also continually improve and acquire new skills.</span> <br>
+                <span class="commentaire">*/</span>
+            </p>
+        <p><span class="accolade">}</span></p>
+      </div>
+      
+
+      <div class="margin">
+        <p class="funcColo">contactMe<span class="accolade">() {</span></p>
+        <div>
+          <p class="bracket margin">
+            let <span class="constcolor">NUMBER</span><span> = </span
+            ><span class="docname">'06-38-94-13-02'</span
+            ><span class="whitecolor">;</span>
+          </p>
+          <p class="bracket margin">
+            let <span class="constcolor">EMAIL</span><span> = </span
+            ><span class="docname"> <a href="mailto:mustafa-hami.demir@outlook.fr">'mustafa-hami.demir@outlook.fr'</a> </span
+            ><span class="whitecolor">;</span>
+          </p>
+          <p class="bracket margin">
+            let <span class="constcolor">LINKEDIN</span><span> = </span
+            ><span class="docname"
+              > <a href=https://www.linkedin.com/in/mustafa-demir-9b6704205>'https://www.linkedin.com/in/mustafa-demir-9b6704205/'</a> </span
+            ><span class="whitecolor">;</span>
+          </p>
+        </div>
+        <p><span class="accolade">}</span></p>
+      </div>
+      <div class="margin">
+        <p class="funcColo">redesign<span class="accolade">() {</span></p>
+        <div>
+          <p class="attribut margin">
+            console<span class="funcColo">.log</span><span class="bracket">(</span
+            ><span class="docname">"In progress"</span><span class="bracket">)</span
+            ><span class="whitecolor">;</span>
+          </p>
+        </div>
+        <p><span class="accolade">}</span></p>
+      </div>
+      <span class="parentese">}</span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-color: #1e1e1efb;
+    box-sizing: content-box;
+    font-family: 'Fira Code', sans-serif;
+}
+.compo {
+    padding: 20px;
+}
+.component {
+    color: #32bbb0;
+}
+.parentese {
+    color: #e6b35f;
+}
+.accolade{
+    color: #BC89BD;
+}
+.bracket {
+    color: #679AD1;
+}
+.attribut {
+    color: #9cdcfe;
+}
+.docname {
+    color: #ce9178;
+}
+.whitecolor {
+    color: white;
+}
+
+.funcColo {
+    color: #DCDCAF;
+}
+.margin {
+    margin-left: 20px;
+}
+.constcolor {
+    color: #729db3;
+}
+.commentaire {
+    color: #74985D;
+}
+
+a {
+    color: #ce9178;
+    text-decoration: none;
+    font-weight: 600;
+}
